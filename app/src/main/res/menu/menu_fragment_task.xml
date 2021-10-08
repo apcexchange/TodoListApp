@@ -3,38 +3,37 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/icon_search"
+        android:id="@+id/action_search"
         android:icon="@drawable/ic_baseline_search_24"
         android:title="search"
-        app:showAsAction="always|collapseActionView"
-        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
 
     <item
-        android:title="sort"
         android:icon="@drawable/ic_baseline_sort_24"
+        android:title="sort"
         app:showAsAction="always">
 
-    <menu>
-        <item
-            android:id="@+id/action_sort_by_name"
-            android:title="sort by name"/>
-        <item
-            android:id="@+id/action_sort_by_date_created"
-            android:title="sort by date created"/>
+        <menu>
+            <item
+                android:id="@+id/action_sort_by_name"
+                android:title="sort by name" />
+            <item
+                android:id="@+id/action_sort_by_date_created"
+                android:title="sort by date created" />
 
-    </menu>
+        </menu>
 
     </item>
 
     <item
         android:id="@+id/action_hide_completed_task"
-        android:title="hide all completed task"
         android:checkable="true"
-        app:showAsAction="never"/>
+        android:title="hide all completed task"
+        app:showAsAction="never" />
     <item
         android:id="@+id/action_delete_completed_task"
         android:title="delete all completed task"
-        android:checkable="true"
-        app:showAsAction="never"/>
+        app:showAsAction="never" />
 
 </menu>

@@ -6,6 +6,8 @@
         <entry key="app/src/main/res/drawable/ic_priority_high.xml" value="0.29814814814814816" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.29347826086956524" />
         <entry key="app/src/main/res/layout/edit_task.xml" value="0.29347826086956524" />
+        <entry key="app/src/main/res/layout/fragment_add_and_edit_task.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/fragment_add_edit_task.xml" value="0.30978260869565216" />
         <entry key="app/src/main/res/layout/fragment_task.xml" value="0.29347826086956524" />
         <entry key="app/src/main/res/layout/item_task.xml" value="0.29347826086956524" />
         <entry key="app/src/main/res/menu/menu_fragment_task.xml" value="0.3098958333333333" />
